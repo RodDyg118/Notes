@@ -516,3 +516,4 @@ D:\2DS\Rodrigo M\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\pri.r
 D:\2DS\Rodrigo M\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 D:\2DS\Rodrigo M\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 D:\2DS\Rodrigo M\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+D:\2DS\Rodrigo M\Notes\Notes\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Notes.sourcelink.json

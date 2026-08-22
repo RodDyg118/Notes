@@ -1,4 +1,6 @@
-﻿namespace Notes;
+﻿using System.Diagnostics;
+
+namespace Notes;
 
 public partial class MainPage : ContentPage
 {
@@ -17,10 +19,24 @@ public partial class MainPage : ContentPage
 
     private void AoClicarApagar(object sender, EventArgs e)
     {
+        if (File.Exists(caminho))
+        {
+            File.Delete(caminho);
+        }
     }
 
     private void AoClicarCarregar(object sender, EventArgs e)
     {
+        try
+        {
+            string conteudo = File.ReadAllText(caminho);
+            NotasEditor.Text = conteudo;
+        }
+        catch(Exception ex)
+        {
+            Debug.WriteLine(ex.Message);
+            DisplayAlert("Alerta", "Operação Ilegal", "Ok");
+        }
     }
 
 }
